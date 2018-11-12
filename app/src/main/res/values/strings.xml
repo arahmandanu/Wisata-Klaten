@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Wisata Klaten</string>
+    <string name="lihat">Lihat Wisata</string>
+    <string name="keterangan">About</string>
+    <string name="judul">Umbul Ponggok</string>
+    <string name="isi">Tempat yang menarik untuk berwisata air</string>
+    <string-array name="pilihan">
+        <item>Alam</item>
+        <item>Buatan</item>
+        <item>Ziarah</item>
+        <item>Sejarah</item>
+        <item>Kerajinan</item>
+    </string-array>
+    <string name="title_activity_maps_wisata">Map</string>
+</resources>

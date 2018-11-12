@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ss.com.bannerslider.Slider
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:slider_interval="5000"
+        app:slider_loopSlides="true"></ss.com.bannerslider.Slider>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/awal">
+
+        <Button
+            android:textColor="#fff"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/kebudayaan"
+            android:id="@+id/blihat"
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/my_button"
+            android:drawableTop="@drawable/ic_map_red"
+            android:text="WISATA" />
+
+        <Button
+            android:textColor="#fff"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/kebudayaan"
+            android:layout_margin="10dp"
+            android:id="@+id/keterangan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/my_button"
+            android:drawableTop="@drawable/ic_tentang"
+            android:text="@string/keterangan" />
+
+        <Button
+            android:textColor="#fff"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:id="@+id/kebudayaan"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/my_button"
+            android:drawableTop="@drawable/ic_adat"
+            android:paddingLeft="10dp"
+            android:text="Adat" />
+    </RelativeLayout>
+
+</LinearLayout>
